@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3F4232B7-0F2B-4A5D-88BC-F481750E44F0}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CSharp.Parts</RootNamespace>
+    <AssemblyName>CSharp.Parts</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainMenu.cs" />
+    <Compile Include="Part15_00_Labs\Part15_00_Navigation.cs" />
+    <Compile Include="Part15_00_Labs\Part15_00_Recipes.cs" />
+    <Compile Include="Part15_00_Labs\Part19_00_ClassNavigation.cs" />
+    <Compile Include="Part15_00_Labs\Part19_00_ClassRecipes.cs" />
+    <Compile Include="Part15_00_Labs\Part20_00_ClassRecipes.cs" />
+    <Compile Include="Part15_00_Labs\Part21_00_ClassRecipes.cs" />
+    <Compile Include="Part15_00_Labs\Part21_A_ClassRecipes.cs" />
+    <Compile Include="Part15_00_Labs\Part22_00_ClassRecipes.cs" />
+    <Compile Include="Part15_00_Labs\Part23_00_ClassRecipes.cs" />
+    <Compile Include="Part15_00_Labs\Part23_A_ClassRecipes.cs" />
+    <Compile Include="Part15_00_Labs\Part24_00_ClassRecipes.cs" />
+    <Compile Include="Part15_00_Labs\Part24_A_ClassRecipes.cs" />
+    <Compile Include="Part15_00_Labs\Part25_ClassRecipes.cs" />
+    <Compile Include="Part15_00_Labs\Part26_A_PropertyRecipes.cs" />
+    <Compile Include="Part15_00_Labs\Part26_PropertyRecipes.cs" />
+    <Compile Include="Part15_00_Labs\Part27_A_PropertyRecipes.cs" />
+    <Compile Include="Part15_00_Labs\Part27_PropertyRecipes.cs" />
+    <Compile Include="Part15_00_Labs\Part28_StructRecipes.cs" />
+    <Compile Include="Part15_00_Labs\Part29_StructRecipes.cs" />
+    <Compile Include="Part15_00_Labs\Part30_00_ClassNavigation.cs" />
+    <Compile Include="Part15_00_Labs\Part30_A_ClassRecipes.cs" />
+    <Compile Include="Part15_00_Labs\Part30_ClassRecipes.cs" />
+    <Compile Include="Part15_00_Labs\Part31_A_InterfaceRecipes.cs" />
+    <Compile Include="Part15_00_Labs\Part31_B_InterfaceRecipes.cs" />
+    <Compile Include="Part15_00_Labs\Part31_InterfaceRecipes.cs" />
+    <Compile Include="Part15_00_Labs\Part32_AbstractRecipes.cs" />
+    <Compile Include="Part15_00_Labs\Part33_AbstractInterfaceRecipes.cs" />
+    <Compile Include="Part15_00_Labs\Part34_MultipleInheritanceProblemRecipes.cs" />
+    <Compile Include="Part15_00_Labs\Part35_MultipleInterfaceInheritanceRecipes.cs" />
+    <Compile Include="Part15_00_Labs\Part36_DelegateRecipes.cs" />
+    <Compile Include="Part15_00_Labs\Part37_DelegateUsageRecipes.cs" />
+    <Compile Include="Part15_00_Labs\Part38_A_DelegateUsageRecipes.cs" />
+    <Compile Include="Part15_00_Labs\Part38_DelegateUsageRecipes.cs" />
+    <Compile Include="Part15_00_Labs\Part39_A_MulticastDelegateRecipes.cs" />
+    <Compile Include="Part15_00_Labs\Part39_B_MulticastDelegateRecipes.cs" />
+    <Compile Include="Part15_00_Labs\Part39_C_MulticastDelegateRecipes.cs" />
+    <Compile Include="Part15_00_Labs\Part39_D_MulticastDelegateRecipes.cs" />
+    <Compile Include="Part15_00_Labs\Part39_MulticastDelegateRecipes.cs" />
+    <Compile Include="Part15_00_Labs\Part40_ExceptionHandlingRecipes.cs" />
+    <Compile Include="Part1_IntroductionNavigation.cs" />
+    <Compile Include="Part1_Introduction_Labs.cs" />
+    <Compile Include="Part41_00_Labs\Part41_00_ClassNavigation.cs" />
+    <Compile Include="Part41_00_Labs\Part41_00_InnerExceptionRecipes.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Notes\notes.txt" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
