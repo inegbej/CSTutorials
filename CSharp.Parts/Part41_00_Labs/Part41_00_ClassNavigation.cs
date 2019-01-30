@@ -45,7 +45,7 @@ namespace CSharp.Parts.Part41_00_Labs
                     Part41_00_InnerExceptionRecipes.InnerException_Lab();
                     break;
                 case "2":
-                    //Part31_InterfaceRecipes.Part31_A_Lab();
+                    Part42_00_CustomExceptions.Part42_Lab();
                     break;
                 case "3":
                     //Part31_A_InterfaceRecipes.Part31_A_A_Lab();

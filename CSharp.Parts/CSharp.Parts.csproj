@@ -87,6 +87,7 @@
     <Compile Include="Part1_Introduction_Labs.cs" />
     <Compile Include="Part41_00_Labs\Part41_00_ClassNavigation.cs" />
     <Compile Include="Part41_00_Labs\Part41_00_InnerExceptionRecipes.cs" />
+    <Compile Include="Part41_00_Labs\Part42_00_CustomExceptions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
