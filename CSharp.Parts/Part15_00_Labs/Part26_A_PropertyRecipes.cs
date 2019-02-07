@@ -4,13 +4,12 @@ namespace CSharp.Parts.Part15_00_Labs
 {
     public class Student26_A
     {
-        // Here we have control as to what gets into and out of this field because we are using private access modifiers
         private int _id;
         private string _name;
         private int _passMark = 35;
 
 
-        public int GetPassMark()    // readonly Getter
+        public int GetPassMark()   
         {
             return this._passMark;
         }
@@ -27,16 +26,6 @@ namespace CSharp.Parts.Part15_00_Labs
         {
             // Ternary operator demo
             return string.IsNullOrEmpty(this._name) ? "No Name" : this._name;
-
-            // if else demo
-            //if (string.IsNullOrEmpty(this._name))
-            //{
-            //    return "No Name";
-            //}
-            //else
-            //{
-            //    return this._name;
-            //}
         }
 
         public void SetId(int Id)

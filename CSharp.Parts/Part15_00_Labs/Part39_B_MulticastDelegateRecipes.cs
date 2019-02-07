@@ -6,18 +6,16 @@ using System.Threading.Tasks;
 
 namespace CSharp.Parts.Part15_00_Labs
 {
-
-    // Main_Helper - Client
     class Part39_B_MulticastDelegateRecipes
     {
         public static void Part39_B_Lab()
         {
             Console.WriteLine("Multi-cast Delegate in C#");
 
-            SampleDelegatePart39A del = new SampleDelegatePart39A(SampleMethodOne);  // using same instance to register a delegate.
+            SampleDelegatePart39A del = new SampleDelegatePart39A(SampleMethodOne);  
             del += SampleMethodTwo;
             del += SampleMethodThree;
-            del -= SampleMethodOne;      // removed from the delegate chain
+            del -= SampleMethodOne;     
 
             del();
         }

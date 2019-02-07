@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace CSharp.Parts.Part15_00_Labs
 {
-    // A delegate that returns a value.
     public delegate int SampleDelegatePart39C();
 
-    // Main_Helper - Client
     class Part39_C_MulticastDelegateRecipes
     {
         public static void Part39_C_Lab()

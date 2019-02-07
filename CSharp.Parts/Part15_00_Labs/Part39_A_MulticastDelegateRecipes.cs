@@ -10,7 +10,6 @@ namespace CSharp.Parts.Part15_00_Labs
     public delegate void SampleDelegatePart39A();
 
 
-    // Main_Helper - Client
     class Part39_A_MulticastDelegateRecipes
     {
         public static void Part39_A_Lab()
@@ -23,8 +22,8 @@ namespace CSharp.Parts.Part15_00_Labs
             del2 = new SampleDelegatePart39A(SampleMethodTwo);
             del3 = new SampleDelegatePart39A(SampleMethodThree);
 
-            del4 = del1 + del2 + del3 - del2;  // multicast delegate chaining
-            del4();                            // multicast invokes
+            del4 = del1 + del2 + del3 - del2;  
+            del4();                            
         }
 
         public static void SampleMethodOne()

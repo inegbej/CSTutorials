@@ -11,7 +11,7 @@ namespace CSharp.Parts.Part15_00_Labs
             Console.WriteLine("\nMethods in C#\n=============");
             Console.WriteLine("\nPrint Even Numbers\n==============");
 
-            int Start = 0;    // Start printing from zero.
+            int Start = 0;    
 
             while (Start <= 20)
             {
@@ -24,7 +24,7 @@ namespace CSharp.Parts.Part15_00_Labs
         {
             Console.WriteLine("\nMethods in C# - Even Numbers with parameter\n=============");
 
-            int Start = 0;   // Start printing from zero.
+            int Start = 0;   
 
             while (Start <= tarGet)
             {
@@ -40,7 +40,7 @@ namespace CSharp.Parts.Part15_00_Labs
             int Sum = Part15_00_Recipes.Part16_B_Lab(10, 20);
             Console.WriteLine($"Sum = {Sum}.");
         }
-        // Helper
+        
         public static int Part16_B_Lab(int FN, int SN)
         {
             return FN + SN;
@@ -57,7 +57,7 @@ namespace CSharp.Parts.Part15_00_Labs
 
             Console.WriteLine(i);
         }
-        // Helper
+       
         public static void Part17_Lab(int j)
         {
             j = 100;
@@ -73,7 +73,7 @@ namespace CSharp.Parts.Part15_00_Labs
 
             Console.WriteLine(i);
         }
-        // Helper
+        
         public static void Part17_B_Lab(ref int j)
         {           
             j = 100;
@@ -106,12 +106,12 @@ namespace CSharp.Parts.Part15_00_Labs
             Numbers[1] = 102;
             Numbers[2] = 103;
 
-            //Part17_D_Lab();                         // flexible because of params array
+            //Part17_D_Lab();                         
             //Part17_D_Lab(Numbers);
-            Part17_D_Lab(1, 2, 3, 4, 5, 6, 7, 8, 9);  // argument are pass to the method
+            Part17_D_Lab(1, 2, 3, 4, 5, 6, 7, 8, 9);  
         }
         // 
-        public static void Part17_D_Lab(params int[] Numbers)     // parameter is passed to this method
+        public static void Part17_D_Lab(params int[] Numbers)     
         {
             Console.WriteLine($"There are {Numbers.Length} element in the array");
 
@@ -121,15 +121,11 @@ namespace CSharp.Parts.Part15_00_Labs
             }
         }
         
-
-        // Reference: Bulgarian EBook
-        // ReverseArray() - Loop through an array in a reverse order.
+        // Loop through an array in a reverse order.
         public static void Lab()
         {
-            // define and initialise an array
             int[] array = new int[] { 1, 2, 3, 4, 5 };
 
-            // output array
             Console.Write("Array output: ");
             for (int i = 0; i < array.Length; i++)
             {

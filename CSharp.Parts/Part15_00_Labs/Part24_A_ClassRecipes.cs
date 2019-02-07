@@ -29,7 +29,7 @@ namespace CSharp.Parts.Part15_00_Labs
             BaseClass_Part24_A B = new DerivedClass_Part24_A();   // In this scenario the "base" class Print() method is called. Because a base class variable is pointing to a derived class object in memory.
             B.Print();                                            
 
-            DerivedClass_Part24_A D = new DerivedClass_Part24_A(); // In this scenario the "derived" class Print() method is called. Because a derived class variable is pointing to a derived class object in memory.
+            DerivedClass_Part24_A D = new DerivedClass_Part24_A(); 
             D.Print();                                            
         }
     }

@@ -7,12 +7,7 @@ using System.Threading.Tasks;
 namespace CSharp.Parts.Part15_00_Labs
 {
     class Part25_ClassRecipes
-    {
-        //public static void Add(int FN, int LN)
-        //{
-        //    Console.WriteLine($"Sum = {FN + LN}");
-        //}
-
+    {        
         public static void Add(float FN, float LN)
         {
             Console.WriteLine($"Sum = {FN + LN}");

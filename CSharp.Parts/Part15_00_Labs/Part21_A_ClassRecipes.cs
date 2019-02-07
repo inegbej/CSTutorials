@@ -1,5 +1,4 @@
-﻿/* Demo: Parent class ctor get called before Child class ctor. */
-
+﻿
 using System;
 
 namespace CSharp.Parts.Part15_00_Labs
@@ -19,7 +18,6 @@ namespace CSharp.Parts.Part15_00_Labs
 
     public class ChildClass : ParentClass 
     {
-        // use "base" keyword to specify which ctor get called in the base class. Otherwise the base class parameterless ctor get called before the derived class ctor.
         public ChildClass() : base("Specifying which ctor get called first. Derived class controlling Parent class.")
         {
             Console.WriteLine($"ChildClass ctor called");

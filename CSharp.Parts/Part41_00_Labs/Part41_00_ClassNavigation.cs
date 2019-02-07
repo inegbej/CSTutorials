@@ -20,11 +20,9 @@ namespace CSharp.Parts.Part41_00_Labs
 
             Console.WriteLine("\nPart41... - MainMenu\n===============");
 
-            Console.WriteLine("1 - Lab41");
-            Console.WriteLine("2 - Lab42");
-            Console.WriteLine("3 - Lab43");
-            Console.WriteLine("4 - Lab44");
-            Console.WriteLine("5 - Lab45");                       
+            Console.WriteLine("1 - Inner Exception");
+            Console.WriteLine("2 - Custom Exception");
+            Console.WriteLine("3 - Exception Abuse");           
             Console.WriteLine("Q - Quit");
 
             Console.WriteLine("Choose (q to quit): ");
@@ -48,13 +46,7 @@ namespace CSharp.Parts.Part41_00_Labs
                     Part42_00_CustomExceptions.Part42_Lab();
                     break;
                 case "3":
-                    //Part31_A_InterfaceRecipes.Part31_A_A_Lab();
-                    break;
-                case "4":
-                    //Part31_A_InterfaceRecipes.Part31_A_B_Lab();
-                    break;
-                case "5":
-                    //Part31_B_InterfaceRecipes.Part31_B_Lab();
+                    Part43_00_ExceptionHandlingAbuse.ExceptionAbuse();
                     break;
                 case "Q":
                     Console.WriteLine("Bye...");

@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace CSharp.Parts.Part15_00_Labs
 {
-    // 
     public delegate void SampleDelegatePart39D(out int Integer);
 
 
-    // Main_Helper - Client
     class Part39_D_MulticastDelegateRecipes
     {
         public static void Part39_D_Lab()
@@ -29,7 +27,7 @@ namespace CSharp.Parts.Part15_00_Labs
 
         public static void SampleMethodOne(out int Number)
         {
-            Number = 1;  // initialize the output parameter to one
+            Number = 1;  
         }
 
         public static void SampleMethodTwo(out int Number)

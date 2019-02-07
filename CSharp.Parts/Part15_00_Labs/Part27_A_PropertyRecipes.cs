@@ -8,23 +8,22 @@ namespace CSharp.Parts.Part15_00_Labs
 {
     public class Student27_A
     {
-        // Here we have control as to what gets into and out of this field because we are using private access modifiers
         private int _id;
         private string _name;
         private int _passMark = 35;
         
 
-        public string Email { get; set; }    // auto implemented properties demo - with fields automatically created for us by the compiler        
+        public string Email { get; set; }           
 
-        public string City { get; set; }    // auto implemented properties demo
+        public string City { get; set; }    
         
 
-        public int PassMark    // readonly Getter
+        public int PassMark    
         {
             get { return this._passMark; }
         }
 
-        public string Name    // read write properties
+        public string Name    
         {
             set
             {
@@ -36,7 +35,6 @@ namespace CSharp.Parts.Part15_00_Labs
             }
             get
             {
-                // Ternary operator demo
                 return string.IsNullOrEmpty(this._name) ? "No Name" : this._name;
             }
 

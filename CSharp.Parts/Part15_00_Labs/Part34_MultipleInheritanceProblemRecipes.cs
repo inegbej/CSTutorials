@@ -30,11 +30,6 @@ namespace CSharp.Parts.Part15_00_Labs
         }
     }
 
-    // This class will cause ambiguity - This is called diamond problem because of the shape of the problem which is why csharp does not support multiple inheritance.
-    //class D_Part34 : B_Part34, C_Part34
-    //{        
-    //}
-
 
     class Part34_MultipleInheritanceProblemRecipes
     {
@@ -42,8 +37,6 @@ namespace CSharp.Parts.Part15_00_Labs
         {
             Console.WriteLine($"\nProblem with multiple class inheritance\n========================");
 
-            //D_Part34 d = new D_Part34();
-            //d.Print();                    // This is an ambiguity, is the Print() method from B_Part34 or C_Part34 - This is called diamond problem because of the shape of the problem.
         }
     }
 }

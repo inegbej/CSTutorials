@@ -24,7 +24,6 @@ namespace CSharp.Parts.Part15_00_Labs
         {
             Console.WriteLine($"\nAbstract class Demo \n========================");
 
-            //Part32_AbstractRecipes P = new Part32_AbstractRecipes();
             Customer_Part32 P = new Part32_AbstractRecipes();
             P.Print();
         }

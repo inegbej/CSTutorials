@@ -19,13 +19,12 @@ namespace CSharp.Parts.Part15_00_Labs
         {
             Console.WriteLine($"\nDifferences Between Classes And Struct\n==================");
 
-            // A demo as to how the variables{int and Customer29} get created in memory
             int i = 0;
 
             if (i == 10)
             {
-                int j = 20;                       // variable j and c1 lifespan are only within the scope of this if block and get destroyed outside this scope
-                Customer29 C1 = new Customer29(); // the customer object "new Customer29" get stored on the heap and later destroed by the garbage collector
+                int j = 20;                       
+                Customer29 C1 = new Customer29(); 
                 C1.ID = 101;
                 C1.Name = "Mark";
             }           

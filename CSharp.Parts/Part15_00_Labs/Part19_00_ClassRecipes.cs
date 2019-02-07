@@ -1,16 +1,14 @@
 ﻿using System;
 
 namespace CSharp.Parts.Part15_00_Labs
-{
-    // State and Behaviour of Class Customer
+{    
     public class Customer
     {
         // field - state
         string _firstName;
         string _lastName;
-
-        // ctor: I want to be able to create a contructor without passing it a value
-        public Customer() : this("No FirstName Provided", "No LastName Provided")   // calls the ctor below using the 'this' keyword
+        
+        public Customer() : this("No FirstName Provided", "No LastName Provided")   
         {
         }
 
@@ -20,8 +18,6 @@ namespace CSharp.Parts.Part15_00_Labs
             this._lastName = LastName;
         }
 
-        // Behaviour
-        // method: Print the full name of our customer
         public void PrintFullName()
         {
             Console.WriteLine($"Full Name = {this._firstName} - {this._lastName}");

@@ -5,7 +5,7 @@ namespace CSharp.Parts.Part15_00_Labs
     public class Employee
     {
         // 
-        public string FirstName;              // NOTE: field should be private and exposed via property
+        public string FirstName;              
         public string LastName;
         public string Email;
 
@@ -25,7 +25,6 @@ namespace CSharp.Parts.Part15_00_Labs
         public float HourlyRate;
     }
 
-    // Multiple class inheritance is not possible BUT multi-level class inheritance is possible. Class A will have all the members of PartTimeEmployee and Employee
     public class A : PartTimeEmployee
     {
     }
@@ -37,7 +36,6 @@ namespace CSharp.Parts.Part15_00_Labs
         {
             Console.WriteLine($"\nInheritance in C#\n==========");
 
-            // A class can only inherit one base class
             FullTimeEmployee FTE = new FullTimeEmployee();
             FTE.FirstName = "Pragim";
             FTE.LastName = "Tech";

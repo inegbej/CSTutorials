@@ -16,15 +16,15 @@ namespace CSharp.Parts.Part41_00_Labs
         {
         }
 
-        public UserAlreadyLoggedInException(string message) : base(message)   // inner exception enable us to track original exception
+        public UserAlreadyLoggedInException(string message) : base(message)   
         {
         }
 
-        public UserAlreadyLoggedInException(string message, Exception innerException) : base(message, innerException)  // allow for original exception to be tracked
+        public UserAlreadyLoggedInException(string message, Exception innerException) : base(message, innerException)  
         {
         }
 
-        public UserAlreadyLoggedInException(SerializationInfo info, StreamingContext context) : base(info, context)   // for passing through application domain
+        public UserAlreadyLoggedInException(SerializationInfo info, StreamingContext context) : base(info, context)   
         {
         }
 
