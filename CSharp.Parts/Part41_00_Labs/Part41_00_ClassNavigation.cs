@@ -22,7 +22,8 @@ namespace CSharp.Parts.Part41_00_Labs
 
             Console.WriteLine("1 - Inner Exception");
             Console.WriteLine("2 - Custom Exception");
-            Console.WriteLine("3 - Exception Abuse");           
+            Console.WriteLine("3 - Exception Abuse");
+            Console.WriteLine("4 - Exception abuse solved");
             Console.WriteLine("Q - Quit");
 
             Console.WriteLine("Choose (q to quit): ");
@@ -47,6 +48,9 @@ namespace CSharp.Parts.Part41_00_Labs
                     break;
                 case "3":
                     Part43_00_ExceptionHandlingAbuse.ExceptionAbuse();
+                    break;
+                case "4":
+                    Part44_00_ExceptionHandlingSolved.ExceptionAbuseSolved();
                     break;
                 case "Q":
                     Console.WriteLine("Bye...");

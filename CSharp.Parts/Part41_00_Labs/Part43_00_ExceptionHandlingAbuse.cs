@@ -6,12 +6,6 @@ using System.Threading.Tasks;
 
 namespace CSharp.Parts.Part41_00_Labs
 {
-    public class ExceptionAbusedemo
-    {
-       
-    }
-
-
     public class Part43_00_ExceptionHandlingAbuse
     {
         public static void ExceptionAbuse()
