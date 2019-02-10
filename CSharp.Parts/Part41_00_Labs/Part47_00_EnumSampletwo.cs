@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharp.Parts.Part41_00_Labs
 {
-    public enum Gender47
+    public enum Gender47 : short
     {
         Unknown,
         Male,
@@ -20,7 +20,7 @@ namespace CSharp.Parts.Part41_00_Labs
             Console.WriteLine($"\nEnums in C#\n=======");
 
             Console.WriteLine($"\nRetrieve Enums values");
-            int[] values = (int[])Enum.GetValues(typeof(Gender47));
+            short[] values = (short[])Enum.GetValues(typeof(Gender47));
 
             foreach (int value in values)
             {
