@@ -19,12 +19,22 @@ namespace CSharp.Parts.Part41_00_Labs
         {
             Console.WriteLine($"\nEnums in C#\n=======");
 
+            Console.WriteLine($"\nRetrieve Enums values");
             int[] values = (int[])Enum.GetValues(typeof(Gender47));
 
             foreach (int value in values)
             {
                 Console.WriteLine(value);
             }
+
+            Console.WriteLine($"\nRetrieve Enums names");
+            string[] names = Enum.GetNames(typeof(Gender47));
+
+            foreach (string name in names)
+            {
+                Console.WriteLine(name);
+            }
+
         }
     }
 }
