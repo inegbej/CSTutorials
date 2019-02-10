@@ -25,6 +25,7 @@ namespace CSharp.Parts.Part41_00_Labs
             Console.WriteLine("3 - Exception Abuse");
             Console.WriteLine("4 - Exception abuse solved");
             Console.WriteLine("5 - Why use Enum");
+            Console.WriteLine("6 - Enum Example");
             Console.WriteLine("Q - Quit");
 
             Console.WriteLine("Choose (q to quit): ");
@@ -55,6 +56,9 @@ namespace CSharp.Parts.Part41_00_Labs
                     break;
                 case "5":
                     Part45_00_Enum.Enum_Lab();
+                    break;
+                case "6":
+                    Part46_00_EnumExample.Enum_Lab46();
                     break;
                 case "Q":
                     Console.WriteLine("Bye...");
