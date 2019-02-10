@@ -1,4 +1,4 @@
-﻿/* Over time the code becomes unmaitainable as we are using numbers instead of enum*/
+﻿/* Over time the code becomes less readable as we are using numbers for Gender instead of enum*/
 using System;
 
 namespace CSharp.Parts.Part41_00_Labs
@@ -21,11 +21,23 @@ namespace CSharp.Parts.Part41_00_Labs
 
             Customer[] customers = new Customer[3];
 
-            customers[0] = new Customer { Name = "Mark", Gender = 1 };
+            customers[0] = new Customer
+            {
+                Name = "Mark",
+                Gender = 1
+            };
 
-            customers[1] = new Customer { Name = "Mary", Gender = 2 };
+            customers[1] = new Customer
+            {
+                Name = "Mary",
+                Gender = 2
+            };
 
-            customers[2] = new Customer { Name = "Sam", Gender = 0 };
+            customers[2] = new Customer
+            {
+                Name = "Sam",
+                Gender = 0
+            };
 
             foreach (Customer customer in customers)
             {
