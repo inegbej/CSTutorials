@@ -8,9 +8,9 @@ namespace CSharp.Parts.Part41_00_Labs
 {
     public enum Gender47 : short
     {
-        Unknown,
-        Male,
-        Female
+        Unknown = 1,
+        Male, 
+        Female 
     }
 
     public class Part47_00_EnumSampletwo
