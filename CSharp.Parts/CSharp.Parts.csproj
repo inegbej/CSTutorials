@@ -90,6 +90,7 @@
     <Compile Include="Part41_00_Labs\Part42_00_CustomExceptions.cs" />
     <Compile Include="Part41_00_Labs\Part43_00_ExceptionHandlingAbuse.cs" />
     <Compile Include="Part41_00_Labs\Part44_00_ExceptionHandlingSolved.cs" />
+    <Compile Include="Part41_00_Labs\Part45_00_Enum.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
