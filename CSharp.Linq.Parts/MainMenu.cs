@@ -10,18 +10,18 @@ namespace CSharp.Linq.Parts
     {
         public virtual void SetMenu()
         {
-            char myChoice;
+            string myChoice;
 
             do
             {
                 myChoice = GetMenu();
                 MakeDecision(myChoice);
-            } while (myChoice != 'Q' && myChoice != 'q');
+            } while (myChoice != "Q" && myChoice != "q");
         }
 
-        public abstract char GetMenu();
+        public abstract string GetMenu();
 
-        public abstract void MakeDecision(char myChoice);
+        public abstract void MakeDecision(string myChoice);
 
     }
 }
