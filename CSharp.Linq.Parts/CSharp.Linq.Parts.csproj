@@ -46,6 +46,8 @@
     <Compile Include="MainMenu.cs" />
     <Compile Include="Part1_Intro_LinqNavigation.cs" />
     <Compile Include="Part1_Linq_Labs.cs" />
+    <Compile Include="Part2_Linq_Intro\ExtensionMethodLab.cs" />
+    <Compile Include="Part2_Linq_Intro\Part2_IntroNav.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
